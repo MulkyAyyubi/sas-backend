@@ -8,7 +8,7 @@ const app = express();
 //   useNewUrlParser: true,
 //   useUnifiedTopology: true,
 // });
-mongoose.connect("mongodb://localhost:27017/restful_db", {
+mongoose.connect("mongodb+srv://mulkyalayyubi:WU3EdISui6kgKoGd@sasbackend.syjzf.mongodb.net/?retryWrites=true&w=majority&appName=SASbackend", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
